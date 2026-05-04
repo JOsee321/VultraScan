@@ -1,0 +1,39 @@
+# Binary
+vultrascanner
+vultrascanner.exe
+vultrascanner-linux
+vultrascanner-darwin
+*.out
+*.test
+
+# Results
+results/
+*.json
+*.csv
+!config.yaml
+
+# Config
+config.local.yaml
+config.prod.yaml
+secrets.yaml
+.env
+
+# Go
+vendor/
+go.sum
+
+# Nuclei templates
+nuclei-templates/
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+
+# Coverage & Chromium
+coverage.out
+coverage.html
+.chromium/
